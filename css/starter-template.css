@@ -38,7 +38,7 @@ img {
 	}
 }
 
-@media (min-width: 990px) and (max-width: 1200px) {
+@media (min-width: 991px) and (max-width: 1200px) {
 	.nav {
 		float:left;
 		position:relative;
