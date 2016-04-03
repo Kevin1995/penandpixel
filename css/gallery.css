@@ -25,3 +25,35 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+
+@media (max-width: 768px) {
+	.nav {
+		float:left;
+		position:relative;
+		left: 40%;
+	}
+}
+
+@media (max-width: 400px) {
+	.nav {
+		float:left;
+		position:relative;
+		left: 25%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+	.nav {
+		float:left;
+		position:relative;
+		left: 12%;
+	}
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+	.nav {
+		float:left;
+		position:relative;
+		left: 25%;
+	}
+}
