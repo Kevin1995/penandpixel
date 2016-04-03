@@ -1,0 +1,15 @@
+body {
+  padding-top: 50px;
+  text-align:center;
+  background-image:url(../background.png);
+}
+
+.nav {
+	float:left;
+	position:relative;
+	left: 25%;
+}
+
+img {
+	margin-bottom:20px;
+}
