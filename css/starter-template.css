@@ -20,6 +20,11 @@ img {
 		position:relative;
 		left: 40%;
 	}
+	
+	iframe {
+		height:1000px;
+		width:100%;
+	}
 }
 
 @media (max-width: 400px) {
@@ -27,6 +32,11 @@ img {
 		float:left;
 		position:relative;
 		left: 25%;
+	}
+	
+	iframe {
+		height:1000px;
+		width:100%;
 	}
 }
 
@@ -36,6 +46,11 @@ img {
 		position:relative;
 		left: 12%;
 	}
+	
+	iframe {
+		height:1000px;
+		width:100%;
+	}
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -43,5 +58,10 @@ img {
 		float:left;
 		position:relative;
 		left: 25%;
+	}
+	
+	iframe {
+		height:1000px;
+		width:100%;
 	}
 }
