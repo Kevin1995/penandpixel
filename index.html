@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Welcome</title>
+    <title>Landing Page</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -35,7 +35,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="welcome_page.html">Home</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="sponsers.html">Sponsers</a></li>
             <li><a href="about_lsad_clonmel.html">About LSAD Clonmel</a></li>
@@ -49,9 +49,9 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>What is Pen and Pixel ?</h1>
-        <img src="pen_and_pixel_header.png" alt="Pen and Pixel 2016" width="1100">
-        <p class="lead">LSAD - Clonmel showcases the talents of its students each year with an exhibition. The exhibition allows students to celebrate their creative talents, while showcasing them to the public. Each year the exhibition is organised by Creative Multimedia students, who are responsible for promoting and organising the exhibition. In the past the event has been known as Digital Expressions, the name has been changed to Pen & Pixel. It was felt that this new name better reflected the creative process of designing and then creating a piece of work. This year a particular emphasis has been placed on showcasing both digital and analog work, spanning the entire range of the multimedia sector. From photography to animation, from video to audio and everything in between. This year’s event will be taking place on the 27th of May at 6.00pm with all welcome.</p>
+        <h1 id="h1">Pen</h1>
+        <h1 id="h2"> & </h1>
+        <h1 id="h3">Pixel</h1>
       </div>
 
     </div><!-- /.container -->
@@ -63,7 +63,13 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-   <script type="text/javascript">
+    <script type="text/javascript">
+	$("h1").click(function(){
+        $("#h1").delay(800).slideUp(200).slideDown(200).slideUp(200).slideDown(200).slideUp(200).slideDown(1000).fadeOut(1000);
+		$("#h2").delay(800).delay(800).slideUp(200).slideDown(200).slideUp(200).slideDown(200).slideUp(200).slideDown(1000).fadeOut(1000);
+		$("#h3").delay(800).delay(800).delay(800).slideUp(200).slideDown(200).slideUp(200).slideDown(200).slideUp(200).slideDown(1000).fadeOut(1000);
+    });
+	
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -71,6 +77,6 @@
 	
 	  ga('create', 'UA-75906709-1', 'auto');
 	  ga('send', 'pageview');
-    </script>
+</script>
   </body>
 </html>
